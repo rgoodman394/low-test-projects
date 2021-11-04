@@ -1,0 +1,190 @@
+/*Search bar Styling */
+#header-search form {
+    border: 3px solid #f2f2f2;
+    position: relative;
+    display: table;
+    width: 100%;
+    text-align: right;
+}
+
+/*Search Bar text when user types */
+#header-search form #yith-s {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+/*Search Bar Placeholder Text Styling*/
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #787878;
+    opacity: 1;
+    font-style: italic;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #787878;
+    opacity: 1;
+    font-style: italic;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #787878;
+    opacity: 1;
+    font-style: italic;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #787878;
+    opacity: 1 font-style: italic;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+/*"All Categories" Label Styling next to Search Bar"*/
+
+#header-search .widget_product_search .sbSelector {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*Drop Down Menu Styling */
+#header .sbHolder .sbOptions {
+    width: 250px;
+    z-index: 1;
+}
+
+#header .sbHolder .sbOptions li a {
+    text-align: left;
+}
+
+
+
+/* Envy fixes */
+.box-title.box-title-text-center h1 {
+    text-align: center;
+}
+
+.box-title h1 {
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    margin: 0;
+    font-size: inherit;
+}
+
+.box-title.box-title-line-middle h1,
+.box-title.box-title-line-around h1 {
+    padding: 0 65px;
+}
+
+.box-title.box-title-line-around h1 {
+    border: 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box-title.box-title-text-left:not(.box-title-line-around) h1 {
+    padding-left: 0;
+}
+
+.box-title.box-title-text-right:not(.box-title-line-around) h1 {
+    padding-right: 0;
+}
+
+.box-title.bottom-little-line h1:after {
+    content: '';
+    display: block;
+    width: 65px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-bottom: 3px solid;
+    height: 1px;
+    box-sizing: border-box;
+}
+
+.box-title.box-title-text-left h1:after,
+.box-title.box-title-text-right h1:after {
+    margin: 0;
+    margin-top: 30px;
+}
+
+/*Fix ie, safari*/
+.ie .box-title h1,
+.safari .box-title h1 {
+    vertical-align: middle;
+}
+
+.testimonials-slider .box-title.bottom-little-line h1:after {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+
+    .box-title.box-title-line-middle h1,
+    .box-title.box-title-line-around h1 {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .box-title.box-title-line-middle h1,
+    .box-title.box-title-line-around h1 {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .box-title.box-title-line-middle h1,
+    .box-title.box-title-line-around h1 {
+        padding: 0 25px;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+
+    .box-title.box-title-line-middle h1,
+    .box-title.box-title-line-around h1 {
+        padding: 0 35px;
+    }
+}
+
+.social-title {
+    margin-left: -9999px;
+}
+
+#copyright .tooltip {
+    display: none !important;
+}
+
+div.summary.entry-summary>h1 {
+    width: 170%;
+}
+
+div.summary.entry-summary>nav {
+    width: 160%;
+}
+
+@media (min-width: 1200px) {
+    div.summary.entry-summary>div.woocommerce-product-details__short-description>p {
+        width: 165%;
+    }
+}
